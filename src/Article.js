@@ -1,5 +1,9 @@
 import React from "react";
 
-const Comment = () => <div>Naturally, I agree with this article.</div>;
+function Article() {
+  return (
+    <div>Dear Reader: Bjarne Stroustrup has the perfect lecture oration.</div>
+  );
+}
 
 export default Article;
